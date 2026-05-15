@@ -33,4 +33,10 @@ public class CafeteriaTest {
             () -> new Leche(null)
         );
     }
+
+    @Test
+    void teDeMentaConMiel() {
+        IInfusion teDeMentaConMiel = new Miel(new Menta(new Te_Hierbas()));
+        assertEquals("Te de Hierbas con Menta con Miel", teDeMentaConMiel.getNombre());
+    }
 }
