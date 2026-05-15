@@ -4,7 +4,7 @@ import infusiones.IInfusion;
 
 public class Canela extends IngredienteDecorator{
 
-    protected Canela(IInfusion infusion) {
+    public Canela(IInfusion infusion) {
         super(infusion);
     }
 

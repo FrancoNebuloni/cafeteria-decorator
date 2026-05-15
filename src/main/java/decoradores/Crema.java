@@ -3,7 +3,7 @@ package decoradores;
 import infusiones.IInfusion;
 
 public class Crema extends IngredienteDecorator{
-    protected Crema(IInfusion infusion) {
+    public Crema(IInfusion infusion) {
         super(infusion);
     }
 

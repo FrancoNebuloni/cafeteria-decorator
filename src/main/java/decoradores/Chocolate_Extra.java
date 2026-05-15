@@ -3,7 +3,7 @@ package decoradores;
 import infusiones.IInfusion;
 
 public class Chocolate_Extra extends IngredienteDecorator{
-    protected Chocolate_Extra(IInfusion infusion) {
+    public Chocolate_Extra(IInfusion infusion) {
         super(infusion);
     }
 

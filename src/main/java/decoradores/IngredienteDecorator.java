@@ -23,7 +23,7 @@ public abstract class IngredienteDecorator implements IInfusion{
 
     @Override
     public String getNombre() {
-        return infusion.getNombre() + "con" + getNombreIngrediente();
+        return infusion.getNombre() + " con " + getNombreIngrediente();
     }
 
     protected abstract Double getCostoExtra();

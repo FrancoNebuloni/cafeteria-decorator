@@ -4,7 +4,7 @@ import infusiones.IInfusion;
 
 public class Leche extends IngredienteDecorator{
 
-    protected Leche(IInfusion infusion) {
+    public Leche(IInfusion infusion) {
         super(infusion);
     }
 
